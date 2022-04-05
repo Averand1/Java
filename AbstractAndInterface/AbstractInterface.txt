@@ -1,0 +1,17 @@
+What's an Abstract Class? 
+-> Basically, it's a blueprint of what each Animal should be able to do (Check the code), assuming that each
+animal makes a noise, takes a dump, and has a Name
+
+What's an Interface?
+-> It's just a collection of Abstract Methods, IT'S NOT A COLLECTION OF METHODS OF WHAT EACH ANIMAL SHOULD BE ABLE TO DO 
+Every animal takes a dump, but pooping is just not limited to animals.
+
+Difference between Abstract Classes and Interfaces?
+-> 1: In Abstract Classes, in the field section (like int age, String name) the values are not final
+      But in Interfaces the field section variables are both static and final
+
+    2:Interface:The Methods in AnimaStuff.java are not actually just related to Animal, everyone takes a dump, 
+    it's just an abstract method
+      Abstract Class: In Animal.java there's an abstract method called MakeNoise(), now this method is specfic
+      to the Animal, meaning that only Child's of Animal will only be able to inherit that feature and no one else
+      and what Kind of Noise they make will be decided after creation of object and then using ObjectName.makeNoise() method
