@@ -1,5 +1,5 @@
 package Classes;
-public class Main{
+public class Main {
     public static void main(String[] args) {
         Student MyStudent = new Student(22, "Bob", "Student");
         MyStudent.BranchAndYear("IT", "2nd");
@@ -7,5 +7,7 @@ public class Main{
         MyStudent.getStudentBranch();
         MyStudent.getStudentName();
         MyStudent.getStudentYear();
+
+        
     }
 }
