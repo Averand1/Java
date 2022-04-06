@@ -8,7 +8,7 @@ Every animal takes a dump, but pooping is just not limited to animals.
 
 Difference between Abstract Classes and Interfaces?
 -> 1: In Abstract Classes, in the field section (like int age, String name) the values are not final
-      But in Interfaces the field section variables are both static and final
+      But in Interfaces the field section variables are both static and final, also they cannot be insatianted
 
     2:Interface:The Methods in AnimaStuff.java are not actually just related to Animal, everyone takes a dump, 
     it's just an abstract method

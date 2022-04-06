@@ -9,4 +9,8 @@ public class Dog extends Animal implements AnimalStuff {
         System.out.println("awnawrwieaar");
     }
 
+    public void printName() {
+        System.out.println();
+    }
+
 }
