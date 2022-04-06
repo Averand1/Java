@@ -1,0 +1,7 @@
+Why use Generics?
+-> In our example of DoublePrinter.java, IntegerPrinter.java, StringPrinter.java, Most of the code
+is same other than the Data Type, there's a lot of code duplication going on just for changing the
+types, to resolve this issue we use Generics
+
+Generics don't work with primitive data types, use Wrapper Classes like String, Integer, Double
+instead
