@@ -1,0 +1,9 @@
+Human.java is the main class in this example, and Student.java is the subclass of the Human class
+it contains the constructor to make objects with couple of properties like name, age, occupation
+
+Student.java contains the information that the student is required to have
+
+StudentInfo.java contains the couple of methods from which we can get names, age, etc of student
+
+Main.Java is where we're making a MyStudent Object usign Student.java Class and setting the values
+and calling some methods from StudentInfo.java
